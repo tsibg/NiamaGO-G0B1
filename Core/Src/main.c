@@ -93,7 +93,7 @@ int main(void)
   MX_USB_DRD_FS_HCD_Init();
   /* USER CODE BEGIN 2 */
 
-  printf("NiamaGO: Inited!\n");
+  printf("NiamaGO: Init done!\n");
 
   /* USER CODE END 2 */
 
@@ -102,15 +102,15 @@ int main(void)
   while (1)
   {
     // LED2 on, LED3 off
-		HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
   	HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_RESET);
 
-		HAL_Delay(1000);
+	HAL_Delay(1000);
     // LED2 off, LED3 on
-		HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_RESET);
   	HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
 
-		HAL_Delay(1000);
+	HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
