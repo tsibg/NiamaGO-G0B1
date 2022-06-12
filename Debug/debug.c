@@ -17,7 +17,7 @@ PUTCHAR_PROTOTYPE
 }
 #endif
 
-void DBG_printi(char * message,...) {
+void DBG_PrintI(char * message,...) {
     #ifdef DBG_ENABLE_PRINTI
         va_list args;
 

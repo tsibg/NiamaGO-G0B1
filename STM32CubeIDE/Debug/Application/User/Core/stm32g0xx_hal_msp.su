@@ -1,5 +1,5 @@
 C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:63:6:HAL_MspInit	16	static
-C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:89:6:HAL_UART_MspInit	128	static
-C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:136:6:HAL_UART_MspDeInit	16	static
-C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:165:6:HAL_HCD_MspInit	112	static
-C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:210:6:HAL_HCD_MspDeInit	16	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:89:6:HAL_CRC_MspInit	24	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:111:6:HAL_CRC_MspDeInit	16	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:133:6:HAL_UART_MspInit	128	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Core/Src/stm32g0xx_hal_msp.c:180:6:HAL_UART_MspDeInit	16	static

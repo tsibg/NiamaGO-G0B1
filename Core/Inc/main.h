@@ -57,12 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define VBUS_Drive_Pin GPIO_PIN_1
-#define VBUS_Drive_GPIO_Port GPIOB
 #define LED3_Pin GPIO_PIN_6
 #define LED3_GPIO_Port GPIOC
 #define LED2_Pin GPIO_PIN_7
 #define LED2_GPIO_Port GPIOC
+#define USB_ENA_Pin GPIO_PIN_15
+#define USB_ENA_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

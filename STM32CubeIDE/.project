@@ -52,6 +52,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c</locationURI>
 		</link>
 		<link>
+			<name>Drivers/STM32G0xx_HAL_Driver/stm32g0xx_hal_crc.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c</locationURI>
+		</link>
+		<link>
+			<name>Drivers/STM32G0xx_HAL_Driver/stm32g0xx_hal_crc_ex.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c</locationURI>
+		</link>
+		<link>
 			<name>Drivers/STM32G0xx_HAL_Driver/stm32g0xx_hal_dma.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c</locationURI>
@@ -82,9 +92,14 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c</locationURI>
 		</link>
 		<link>
-			<name>Drivers/STM32G0xx_HAL_Driver/stm32g0xx_hal_hcd.c</name>
+			<name>Drivers/STM32G0xx_HAL_Driver/stm32g0xx_hal_pcd.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_hcd.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.c</locationURI>
+		</link>
+		<link>
+			<name>Drivers/STM32G0xx_HAL_Driver/stm32g0xx_hal_pcd_ex.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32G0xx_HAL_Driver/stm32g0xx_hal_pwr.c</name>
@@ -142,6 +157,26 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c</locationURI>
 		</link>
 		<link>
+			<name>Middlewares/USB_Device_Library/usbd_cdc.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/USB_Device_Library/usbd_core.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/USB_Device_Library/usbd_ctlreq.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/USB_Device_Library/usbd_ioreq.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c</locationURI>
+		</link>
+		<link>
 			<name>Application/User/Core/main.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/main.c</locationURI>
@@ -160,6 +195,26 @@
 			<name>Application/User/Debug/debug.c</name>
 			<type>1</type>
 			<location>C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Debug/debug.c</location>
+		</link>
+		<link>
+			<name>Application/User/USB_Device/App/usb_device.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/USB_Device/App/usb_device.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/USB_Device/App/usbd_cdc_if.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/USB_Device/App/usbd_cdc_if.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/USB_Device/App/usbd_desc.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/USB_Device/App/usbd_desc.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/USB_Device/Target/usbd_conf.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/USB_Device/Target/usbd_conf.c</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

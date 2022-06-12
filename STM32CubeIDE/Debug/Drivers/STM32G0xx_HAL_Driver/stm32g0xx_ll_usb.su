@@ -4,6 +4,12 @@ C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driv
 C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:137:19:USB_DisableGlobalInt	24	static
 C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:161:19:USB_SetCurrentMode	16	static
 C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:183:19:USB_DevInit	24	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:209:19:USB_ActivateEndpoint	120	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:334:19:USB_DeactivateEndpoint	96	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:393:19:USB_EPStartXfer	104	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:613:19:USB_EPSetStall	24	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:633:19:USB_EPClearStall	40	static
+C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:665:19:USB_EPStopXfer	32	static
 C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:710:19:USB_StopDevice	16	static
 C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:731:20:USB_SetDevAddress	16	static
 C:/Users/tilie/Documents/bobi/board-g0b1/NiamaGO-G0B1/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c:747:20:USB_DevConnect	16	static

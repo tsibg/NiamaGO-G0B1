@@ -9,8 +9,11 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Middlewares/USB_Device_Library/subdir.mk
 -include Drivers/STM32G0xx_HAL_Driver/subdir.mk
 -include Drivers/CMSIS/subdir.mk
+-include Application/User/USB_Device/Target/subdir.mk
+-include Application/User/USB_Device/App/subdir.mk
 -include Application/User/Startup/subdir.mk
 -include Application/User/Debug/subdir.mk
 -include Application/User/Core/subdir.mk
